@@ -15,6 +15,22 @@
 
 ---
 
+## 🛠️ Technology Stack
+
+| Component | Technologies / Methods |
+|---|---|
+| **Programming** | Python |
+| **Data processing** | Pandas, NumPy |
+| **Machine learning** | Scikit-learn, classification pipelines |
+| **Data preprocessing** | Missing-value imputation, categorical encoding |
+| **Model evaluation** | Classification metrics, train/test evaluation |
+| **Business intelligence** | Churn probability, customer prioritization, revenue-at-risk estimation |
+| **Dashboard** | Streamlit, Plotly |
+| **Testing** | Pytest |
+| **Version control** | Git, GitHub |
+
+---
+
 ## 🎯 The problem
 
 Retention teams need to decide **which customers to contact first**. Nexora AI uses past churn outcomes to estimate the churn risk of **separate active customers**, then ranks them by **estimated monthly revenue exposure**. It supports outreach planning; it does **not** predict whether an intervention will succeed.
