@@ -8,16 +8,21 @@ from src.retention import read_csv, fit_retention, score_active
 st.set_page_config(page_title='Nexora AI | Retention Intelligence',page_icon="assets/nexora_icon.png",layout='wide')
 
 # Nexora AI branding
-col_logo, col_title = st.columns([1, 10], vertical_alignment="center")
+col_logo, col_title = st.columns(
+    [1, 10],
+    vertical_alignment="center"
+)
 
 with col_logo:
     st.image("assets/nexora_icon.png", width=55)
 
 with col_title:
-    st.title("Nexora AI")
+    st.title("Nexora AI — Customer Retention Intelligence")
+
+
 
 st.markdown('''<style>
-.stApp{background:#f5f8fc;color:#173352}section[data-testid="stSidebar"]{background:#122e4e}section[data-testid="stSidebar"] *{color:#f0f6ff!important}h1,h2,h3{color:#173352!important}.block-container{max-width:1250px;padding-top:2rem}.hero{background:linear-gradient(110deg,#123b69,#1487a8);padding:28px 32px;border-radius:16px;color:white;margin-bottom:20px}.hero h1{color:white!important;margin:0}.hero p{color:#e2f3ff;margin:8px 0 0}</style>''',unsafe_allow_html=True)
+.stApp{background:#f5f8fc;color:#173352}section[data-testid="stSidebar"]{background:#122e4e}section[data-testid="stSidebar"] *{color:#f0f6ff!important}h1,h2,h3{color:#173352!important}.block-container{max-width:1250px;padding-top:5rem}.hero{background:linear-gradient(110deg,#123b69,#1487a8);padding:28px 32px;border-radius:16px;color:white;margin-bottom:20px}.hero h1{color:white!important;margin:0}.hero p{color:#e2f3ff;margin:8px 0 0}</style>''',unsafe_allow_html=True)
 # Sidebar upload widgets: Streamlit's light drop zone needs explicit dark-on-light text.
 st.markdown("""<style>
 section[data-testid="stSidebar"] [data-testid="stFileUploaderDropzone"] {
@@ -42,7 +47,6 @@ section[data-testid="stSidebar"] [data-testid="stFileUploaderFile"] button {
 section[data-testid="stSidebar"] [data-testid="stFileUploaderFile"] button svg {fill:#163653 !important; stroke:#163653 !important;}
 section[data-testid="stSidebar"] [data-testid="stFileUploaderFile"] svg {color:#163653 !important;}
 </style>""", unsafe_allow_html=True)
-st.markdown('<div class="hero"><h1>◈ Nexora AI</h1><p>Customer Retention Intelligence · Predict churn risk · Prioritize customer outreach</p></div>',unsafe_allow_html=True)
 st.caption('Decision-support prototype • Probabilities are estimates, not guaranteed cancellations or recovered revenue.')
 
 with st.sidebar:
