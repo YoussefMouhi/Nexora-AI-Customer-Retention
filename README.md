@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/nexora_banner.png" alt="Nexora AI Banner" width="100%">
+</p>
+
 <div align="center">
 
 <h1><img src="assets/nexora_icon.png" width="40" alt="Nexora AI icon"> Nexora AI — Customer Retention Intelligence</h1>
