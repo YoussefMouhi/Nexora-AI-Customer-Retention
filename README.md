@@ -1,6 +1,6 @@
 <div align="center">
 
-# ◇ Nexora AI
+<h1><img src="assets/nexora_icon.png" width="40" alt="Nexora AI icon"> Nexora AI — Customer Retention Intelligence</h1>
 ### Customer Retention Intelligence
 
 **Predict customer churn · Understand model reliability · Prioritize outreach**
